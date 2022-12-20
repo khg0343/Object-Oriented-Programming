@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window_22</class>
+ <widget class="QDialog" name="window_22">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="LogoutButton">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>20</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HY견고딕</family>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>로그아웃</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ReserveButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>229</y>
+     <width>150</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HY견고딕</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>예약하기</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <family>HY견고딕</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>  학번 : </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="CurrentReg">
+      <property name="font">
+       <font>
+        <family>HY견고딕</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="WarningButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>229</y>
+     <width>150</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HY견고딕</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>신고하기</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>HY견고딕</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>지금 나는?</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="CurrentStatus">
+      <property name="font">
+       <font>
+        <family>HY견고딕</family>
+        <pointsize>10</pointsize>
+        <underline>true</underline>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <family>HY견고딕</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>  ID : </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="CurrentID">
+      <property name="font">
+       <font>
+        <family>HY견고딕</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="outButton">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>229</y>
+     <width>141</width>
+     <height>170</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>HY견고딕</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>외출하기</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <family>HY견고딕</family>
+       </font>
+      </property>
+      <property name="text">
+       <string>경고 횟수: </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="CurrentWarn">
+      <property name="font">
+       <font>
+        <family>HY견고딕</family>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
